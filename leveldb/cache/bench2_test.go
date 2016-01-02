@@ -11,6 +11,7 @@ package cache
 import (
 	"math/rand"
 	"testing"
+	"time"
 )
 
 func BenchmarkLRUCache(b *testing.B) {
